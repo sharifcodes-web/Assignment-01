@@ -1,0 +1,179 @@
+body{
+    margin:0;
+    padding:0;
+    min-height:100vh;
+}
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings: "width" 100;
+  padding:50px;
+}
+
+/* shared font */
+.inter-miami{
+    font-size: larger;
+}
+
+
+/* shared-text */
+.text-primary{
+    /* color:darkgreen; */
+    background-color: blue;
+    text-decoration: none;
+    font-weight: 800;
+    padding:10px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* shared-btn */
+.btn-parimary{
+    background-color: blue;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(225, 222, 229);
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin: 60px;
+}
+.btn-parimary:hover{
+    background-color: chartreuse;
+    color: green;
+}
+
+/* navbar styles */
+
+.banner-parent{
+    margin: 0 35px 0 250px;
+    margin: 0 auto;
+}
+.nav-bg-img{
+    background-image: url(../assets/Assets/Hero-bg.png);
+}
+nav { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 200px;
+    
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 50px;
+}
+nav ul li{
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+}
+
+/* banner */
+.banner-item{
+    text-align: center;
+    padding-top: 60px;
+}
+.banner-item{
+    font-size: 35px;
+}
+
+/* action part */
+.action{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 0 35px 0 250px;
+padding-top: 150px ;
+
+}
+.action-img{
+    max-width: 580px;
+    border-radius: 50px;
+    
+}
+
+ /* productive-users */
+.productive-users{
+    background-color: rgb(154, 177, 177);
+    text-align: center;
+    margin: 50px 35px 0 250px;
+    border-radius:8px;
+    /* padding-top: 50px; */
+    margin-top:50x; 
+    /* max-width: 800px; */
+}
+.uers-feedback{
+    display : flex ;
+    justify-content:space-around;
+    padding-top: 50px; 
+
+    
+}
+
+/* /* card */
+h1{
+    text-align: center;
+}
+.card-parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 35px 0 250px;
+}
+.review-card{
+    background-color: rgb(152, 152, 149);
+    max-width:250px;
+    padding:10px;
+    margin-top:30 px;
+    border:10px;
+    border-radius:7px;
+}
+ .reviewer-row{
+    display: flex;
+    gap: 5px;
+
+ }
+
+
+/* /* customar details */
+.customar-details{
+    display: flex;
+    /* flex-direction:column; */
+    justify-content: space-around;
+    margin: 0 35px 0 250px;
+    
+}
+form input{
+    /* padding:20px; */
+}
+.form input,
+.form textarea{
+    padding: 12px;
+    margin-bottom:20px;
+    border: 1px solid #ddd;
+    border-radius:8px;
+    font-size:16px; 
+}
+
+
+
+/* /* footer */
+
+
+
+.footer-bg{
+    background-color:rgb(136, 219, 136);
+}
+.footer{
+    text-align: center;
+    
+}
+.footer-link{
+    
+}
+
+
+
